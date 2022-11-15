@@ -1,0 +1,94 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  background-color: #6bbcbe;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+div {
+  background-color: white;
+}
+
+.circle-box {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  animation: circleRotate 1.8s ease-in-out infinite;
+}
+
+.circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin: 0 20px 0 20px;
+}
+
+@keyframes circleRotate {
+  0% {
+    transform: translate();
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.line-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 130px;
+}
+
+.line {
+  width: 10px;
+  height: 60px;
+  margin: 0 3px 0 3px;
+}
+
+.line-box .line:first-child {
+  animation: lineScale 1s ease-in-out infinite;
+}
+
+.line-box .line:nth-child(2) {
+  animation: lineScale 1s ease-in-out infinite;
+  animation-delay: 0.1s;
+}
+.line-box .line:nth-child(3) {
+  animation: lineScale 1s ease-in-out infinite;
+  animation-delay: 0.2s;
+}
+.line-box .line:nth-child(4) {
+  animation: lineScale 1s ease-in-out infinite;
+  animation-delay: 0.3s;
+}
+.line-box .line:last-child {
+  animation: lineScale 1s ease-in-out infinite;
+  animation-delay: 0.4s;
+}
+
+@keyframes lineScale {
+  0% {
+    transform: scaleY(1);
+  }
+
+  50% {
+    transform: scaleY(1.4);
+  }
+
+  100% {
+    transform: scaleY(1);
+  }
+}
