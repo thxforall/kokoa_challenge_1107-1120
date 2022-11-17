@@ -1,0 +1,14 @@
+@import "/booklibrary_1117/css/reset.css";
+
+@import "/booklibrary_1117/css/navbar.css";
+@import "/booklibrary_1117/css/searchbar.css";
+@import "/booklibrary_1117/css/section.css";
+
+/* var */
+:root {
+  --yellow: #ffce33;
+}
+
+body {
+  height: 100vh;
+}
