@@ -7,6 +7,7 @@ main {
   font-weight: 600;
   font-size: 30px;
   margin-bottom: 25px;
+  margin-top: 25px;
 }
 
 .movie-poster {
@@ -23,6 +24,7 @@ main {
 .column-subtitle {
   font-size: 15px;
   color: rgba(0, 0, 0, 0.3);
+  margin-top: 15px;
 }
 
 .movie-poster--xl {
@@ -123,4 +125,22 @@ main {
 .section-now {
   display: flex;
   overflow: hidden;
+}
+
+.section-rec {
+  display: flex;
+  margin-top: 20px;
+  width: 90%;
+}
+
+.section-rec__text {
+  margin-left: 20px;
+}
+
+.section-rec__text .column-title:nth-child(1) {
+  margin-top: 10px;
+}
+
+.section-rec__text .column-subtitle:nth-child(2) {
+  font-size: 20px;
 }
