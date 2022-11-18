@@ -5,7 +5,7 @@
 @import "variant.css";
 
 /* component */
-@import "navvar.css";
+@import "navbar.css";
 
 /* screen */
 @import "play.css";
@@ -16,15 +16,18 @@ body {
   background-color: #f7f7f7;
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   align-items: center;
   height: 100vh;
+  color: var(--black);
 }
 
 section {
   background-color: white;
-  width: 333px;
-  height: 850px;
+  width: 360px;
+  height: 820px;
   border-radius: 50px;
+  margin: 20px 0px;
   box-shadow: 0 9px 20px 0 rgba(0, 0, 0, 0.1);
   padding: 50px 20px 10px 20px;
   box-sizing: border-box;
